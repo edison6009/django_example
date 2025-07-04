@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Producto show{% endblock %}
+
+{% block header %}
+<h1>Producto show</h1>
+{% endblock %}
+
+{% block content %}
+    <section>
+        <h2>{{ product.name }}</h2>
+        
+        <ul>
+            <li>Price: {{ product.price }}</li>
+            <li>Description: {{ product.description }}</li>
+            <li>Available: {{ product.available }}</li>
+            <li>Category: {{ product.category }}</li>
+        </ul>
+    </section>
+{% endblock %}
+
+{% block footer %}
+<p>  </p>
+{% endblock %}

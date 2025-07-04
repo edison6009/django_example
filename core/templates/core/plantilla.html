@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HEY</title>
+    <link rel="stylesheet" href={% static "core/css/plantilla.css"%}>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">D´NEISER</p>
+            <nav>
+                <a class="redone" href="#somos-proya">Quienes Somos</a>
+                <a class="roseone"href="#nuestras-areas">Nuestros areas</a>
+                <a class="lighone" href="#caracteristicas">Características</a>
+				<a href="#final">pedidos</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1 >first section  <br> subsection</h1>
+        <button>YA!</button>
+    </section>
+
+    <section id="somos-proya">
+        <div  class="container">
+            <div class="img-container"></div>
+            <div class="fondologo">
+
+                <h1>Somos  <span class="color-acento"></span></h1>
+                <p>comentario</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nuestras-areas">
+        <div class="firstoption">
+            <h2>Nuestras Areas </h2>
+            <div class="progra">
+                <div class="golos1">
+                    <h3>Papeleria</h3>
+                    <p> Herramientas para tu Preparacion </p>
+                    <button>
+                       <a href=""><input type=button>VER</input></a>
+					   </button>
+					
+                </div>
+                <div class="golos2">
+                    <h3>Detalles </h3>
+                    <p>comparte un detalle con tu ser querido </p>
+                  <button>
+                       <a href=""><input type=button>VER</input></a>
+					   </button>
+					
+                </div>
+                <div class="golos3">
+                    <h3>Cometicos</h3>
+                    <p>Sorprende con tus maquillajes </p>
+					<button>
+                       <a href={% url "maqui"%}><input type=button>VER</input></a>
+					   </button>
+					
+                </div>  
+				  <div class="golos4">
+                    <h3>Golosinas</h3>
+                    <p>Disfruta de Nuestras Golosinas  </p>
+					<button>
+                       <a href="golosina_page.html"><input type=button>VER</input></a>
+					   </button>
+					
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div class="ubicacion">
+            <ul>
+                <li>✔️ 100% online</li>
+                    <li>✔️ Flexibilidad de horarios</li>
+                       <li>✔️ Soporte </li>
+							<li>✔️ Envio Locales </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="final">
+        <h2>Listo para hacer tu pedido </h2>
+        <button>APLICÁ YA!</button>
+		
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; PORTAL WEB </p>
+        </div>
+    </footer>
+</body>
+</html>

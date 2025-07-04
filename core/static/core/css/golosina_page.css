@@ -1,0 +1,32 @@
+.container{
+	display:flex;
+	width: 100%;
+	background-color:gray;
+	padding:10px;
+	margin: 50px auto;
+}
+
+.item1{
+	width:25%;
+	padding:25px;
+}
+.item2{ 
+	width:25%;
+	padding:25px; 
+ } 
+.item3{ 
+	width:25%;
+	padding:25px;  
+ } 
+
+.item3{
+	width:25%;
+	padding:25px;
+}
+.principal{
+	font-family:¨open sans¨;
+	color:#FFD1D9;
+	text-align:center;
+	background-color:#007BFF;
+	
+}

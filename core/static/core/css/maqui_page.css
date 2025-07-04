@@ -1,0 +1,103 @@
+.container{
+	display:flex;
+	flex-position:center;
+	width: 100%;
+	background-color:gray;
+	padding:10px;
+	margin-top:50px ;
+	gap:40px;
+	
+}
+
+.item1{
+
+	width:25%;
+	padding:25px;
+}
+.item2{ 
+	width:25%;
+	padding:25px; 
+ } 
+.item3{ 
+	width:25%;
+	padding:25px;  
+ } 
+
+.item3{
+	width:25%;
+	padding:25px;
+}
+.principal{
+	font-family:¨open sans¨;
+	color:#FFD1D9;
+	text-align:center;
+	background-color:#007BFF;
+	
+}
+header
+
+header .logo{
+    margin: 0px;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blue ;
+    font-size: 4em;
+}
+
+.logo{
+	color:white;
+	font-family:cooper black;
+	font-size:4em;
+	text-align:center;
+	
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin-top:5px;
+	background-image:url("logo.JPG");
+	background-position: center center;
+	background-repeat:no-repeat;
+}
+
+
+header nav{
+    display: flex;
+    flex-direction: rows;
+    text-align: center;
+    padding-bottom: 25px;
+	color:#00b7ff;
+	font-family:cooper black;
+	font-size:2em;
+	
+}
+
+
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+#Labiales h1{
+	text-align:center;
+	background-color:#FFD1D9;
+	font-family:cooper black;
+	color:#007bfb;
+} 
+
+#Carteras h1{
+	text-align:center;
+	background-color:#FFD1D9;
+	font-family:cooper black;
+	color:#007bfb;
+}
